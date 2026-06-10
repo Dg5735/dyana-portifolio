@@ -29,3 +29,50 @@
     </script>
 </body>
 </html>
+<hr>
+
+<h2>About the Creator</h2>
+
+<p>
+Hello! My name is Dyana Gopi Dammalapati.
+I am a Software Engineer passionate about Python, Cloud Computing,
+Data Engineering, and Artificial Intelligence.
+</p>
+
+<h3>Current Goals</h3>
+
+<ul>
+    <li>Master Git and GitHub</li>
+    <li>Build AI-powered web applications</li>
+    <li>Land a Software Engineer role</li>
+    <li>Create useful tools for developers</li>
+</ul>
+
+<h3>Projects</h3>
+
+<ul>
+    <li>Ascending Number Sorter</li>
+    <li>Portfolio Website</li>
+    <li>AI Resume Reviewer (Coming Soon)</li>
+</ul>
+
+<h2>Quote of the Day</h2>
+
+<button onclick="showQuote()">Show Quote</button>
+
+<p id="quote"></p>
+
+<script>
+function showQuote() {
+    const quotes = [
+        "Small progress is still progress.",
+        "Consistency beats intensity.",
+        "Build something every day.",
+        "Learning by doing is the fastest path."
+    ];
+
+    const random = Math.floor(Math.random() * quotes.length);
+
+    document.getElementById("quote").innerHTML = quotes[random];
+}
+</script>
